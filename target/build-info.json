@@ -1,0 +1,102 @@
+{
+  "version" : "1.0.1",
+  "url" : "http://ec2-54-72-229-63.eu-west-1.compute.amazonaws.com:8080/job/test/25/",
+  "modules" : [ {
+    "dependencies" : [ {
+      "scopes" : [ "provided" ],
+      "id" : "javax.enterprise:cdi-api:1.0-SP4",
+      "md5" : "6c1e2b4036d64b6ba1a1136a00c7cdaa",
+      "sha1" : "6e38490033eb8b36c4cf1f7605163424a574dcf0",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "provided" ],
+      "id" : "org.jboss.spec.javax.servlet:jboss-servlet-api_3.0_spec:1.0.2.Final",
+      "md5" : "91d1d68f47b05a24edf27b6da01fc4d9",
+      "sha1" : "293b68881aebb47c7726ffb697bd292045803aec",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "provided" ],
+      "id" : "javax.inject:javax.inject:1",
+      "md5" : "289075e48b909e9e74e6c915b3631d2e",
+      "sha1" : "6975da39a7040257bd51d21a231b76c915872d38",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "provided" ],
+      "id" : "org.jboss.spec.javax.annotation:jboss-annotations-api_1.1_spec:1.0.1.Final",
+      "md5" : "903b753c597eb1727c79a136f4dd8ba9",
+      "sha1" : "8f9335f966885529d1254793182ff3df1c515eb8",
+      "type" : "jar"
+    }, {
+      "scopes" : [ "provided" ],
+      "id" : "org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec:1.0.1.Final",
+      "md5" : "7034a9d07bf555a5e061eb8b9043c443",
+      "sha1" : "b08fd6c1ba2d852474446c07f331ca38b2d43c4b",
+      "type" : "jar"
+    } ],
+    "artifacts" : [ {
+      "name" : "jboss-helloworld-6.4.0.war",
+      "md5" : "92fce14e4c0284543fe354bf034188ef",
+      "sha1" : "dad47f0e72369720e26ab2bb8263f718bac3ff88",
+      "type" : "war"
+    }, {
+      "name" : "jboss-helloworld-6.4.0.pom",
+      "md5" : "dc887fa3fa40d599931818b11d2fe971",
+      "sha1" : "a80b69e16a618be5d1efd319660e60a6448690a9",
+      "type" : "pom"
+    } ],
+    "id" : "org.jboss.quickstarts.eap:jboss-helloworld:6.4.0",
+    "properties" : {
+      "version.jboss.spec.javaee.6.0" : "3.0.2.Final",
+      "version.war.plugin" : "2.1.1",
+      "project.build.sourceEncoding" : "UTF-8",
+      "version.jboss.maven.plugin" : "7.4.Final",
+      "maven.compiler.source" : "1.6",
+      "maven.compiler.target" : "1.6"
+    }
+  } ],
+  "principal" : "admin",
+  "vcsRevision" : "7cbe3d12f77092bf611e1d9b92b8cfd52d6455dd",
+  "vcsUrl" : "https://github.com/L1opardo87/test",
+  "agent" : {
+    "version" : "1.587",
+    "name" : "Jenkins"
+  },
+  "buildAgent" : {
+    "version" : "3.2.2",
+    "name" : "Maven"
+  },
+  "started" : "2014-11-11T14:19:38.208+0000",
+  "durationMillis" : 4026,
+  "licenseControl" : {
+    "runChecks" : false,
+    "includePublishedArtifacts" : false,
+    "autoDiscover" : true,
+    "scopesList" : "",
+    "licenseViolationsRecipientsList" : ""
+  },
+  "buildRetention" : {
+    "count" : -1,
+    "deleteBuildArtifacts" : true,
+    "buildNumbersNotToBeDiscarded" : [ ]
+  },
+  "statuses" : [ {
+    "repository" : "ext-release-local",
+    "status" : "Staged",
+    "ciUser" : "admin",
+    "timestampDate" : 1415715578208,
+    "user" : "admin",
+    "comment" : "",
+    "timestamp" : "2014-11-11T14:19:38.208+0000"
+  } ],
+  "governance" : {
+    "blackDuckProperties" : {
+      "runChecks" : false,
+      "includePublishedArtifacts" : false,
+      "autoCreateMissingComponentRequests" : false,
+      "autoDiscardStaleComponentRequests" : false
+    }
+  },
+  "name" : "test",
+  "type" : "MAVEN",
+  "number" : "25"
+}
